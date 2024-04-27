@@ -11,7 +11,7 @@
     </div>
     <div class="row">
         <div class="col">
-            <button type="submit" class=" btn btn-primary">
+            <button type="submit" class=" btn btn-primary mt-2">
                 Enviar
             </button>
         </div>
