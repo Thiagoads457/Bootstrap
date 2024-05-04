@@ -2,7 +2,9 @@
 
     require_once"cabecalho.php";
 
-    echo"<p>Resposta: ".positivoNegativo($_POST['valor'])."</p>";
+    $valor = $_POST['valor'];
+
+    echo"<p>Resposta: ".positivoNegativo($valor)."</p>";
 
 
     require_once "rodape.php";
