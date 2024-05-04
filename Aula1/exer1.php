@@ -8,6 +8,7 @@
             <label for="valor" class="form-label">Informe o valor</label>
             <input type="number" class="form-control" name="valor" id="valor">
         </div> 
+        
     </div>
     <div class="row">
         <div class="col">
