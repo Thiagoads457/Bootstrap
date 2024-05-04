@@ -1,5 +1,5 @@
 <?php
-    require_once"cabecalho.php";
+    require_once "cabecalho.php";
 ?>
 
 <form action="exer2resp.php" method="post">
@@ -11,10 +11,17 @@
             <?php } ?>
         </div>
     </div>
+    <div class="row">
+        <div class="col">
+            <button type="submit" class=" btn btn-primary mt-2">
+                Enviar
+            </button>
+        </div>
+    </div>
 </form>
 
 
 
 
 <?php   
-    require_once"rodape.php";
+    require_once "rodape.php";
