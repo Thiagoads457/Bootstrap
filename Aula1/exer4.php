@@ -4,9 +4,9 @@
 
 <form action="exer4resp.php" method="post">
     <div class="row">
-        <div class="col">
-            <label for="valor" class="form-label">Informe a Tabuada</label>
-            <input type="number" class="form-control" name="valor" id="valor">
+        <div class="col">            
+                <label for="valor" class="form-label">Informe a Tabuada</label>
+                <input type="number" class="form-control" name="valor" id="valor">
         </div> 
         
     </div>

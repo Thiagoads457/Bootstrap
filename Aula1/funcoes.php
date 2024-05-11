@@ -17,6 +17,9 @@
         }
     }
 
+   
+
+
  
     
         
@@ -31,10 +34,13 @@
         }
     }
 
-    function mostrarTabuada($valor){
-
-        for ($i=1;$i<11;$i++) {
+    function mostrarTabuada($valor) {
+        $tabuada = "";
+        for ($i = 1; $i <= 10; $i++) {
             $resultado = $valor * $i;
-            return "$valor x $i = $resultado";
+            $tabuada .= "$valor x $i = $resultado <br>";
         }
+        return $tabuada;
     }
+    
+    
