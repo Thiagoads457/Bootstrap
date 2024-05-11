@@ -30,3 +30,11 @@
             return "O resultado é $soma";
         }
     }
+
+    function mostrarTabuada($valor){
+
+        for ($i=1;$i<11;$i++) {
+            $resultado = $valor * $i;
+            return "$valor x $i = $resultado";
+        }
+    }
