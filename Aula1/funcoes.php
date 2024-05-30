@@ -55,7 +55,7 @@
     function encontrarIguais($valor1,$valor2){
         $resultado = "";
         if ($valor1 > $valor2) {
-            $resultado =  $valor2.",". $valor1;
+            $resultado =  $valor2.",".$valor1;
                     
         }elseif($valor2 > $valor1) {
             $resultado = $valor1. ",".$valor2;
@@ -71,5 +71,12 @@
         
         $centimetro = $valor * 100;
         return $centimetro;
+    }
+
+    function calcularCusto($area){
+        area ="";
+        $latas = ceil(area/ 3 / 18);
+        $precoTotal = $latas * 80;
+        return $precoTotal;    
     }
     
