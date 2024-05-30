@@ -50,4 +50,19 @@
         $resultado *= $i;
         }
         return $resultado;
-    }   
+    }
+    
+    function encontrarIguais($valor1,$valor2){
+        $resultado = "";
+        if ($valor1 > $valor2) {
+            $resultado =  $valor2.",". $valor1;
+                    
+        }elseif($valor2 > $valor1) {
+            $resultado = $valor1. ",".$valor2;
+            
+        }else{
+            $resultado = $valor1;
+           
+        }
+        return $resultado; 
+    }
