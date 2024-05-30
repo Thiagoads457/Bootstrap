@@ -66,3 +66,10 @@
         }
         return $resultado; 
     }
+
+    function converterCentimetros($valor){
+        
+        $centimetro = $valor * 100;
+        return $centimetro;
+    }
+    
