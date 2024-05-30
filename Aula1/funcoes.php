@@ -44,3 +44,10 @@
     }
     
     
+    function encontrarFatorial($valor){
+        $resultado = 1;
+        for ($i=1; $i < $valor+1; $i++){ 
+        $resultado *= $i;
+        }
+        return $resultado;
+    }   
