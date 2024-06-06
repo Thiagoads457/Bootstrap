@@ -74,8 +74,9 @@
     }
 
     function calcularCusto($area){
-        area ="";
-        $latas = ceil(area/ 3 / 18);
+        
+        $tintaLitro = $area / 3;
+        $latas = ceil($tintaLitro / 18);
         $precoTotal = $latas * 80;
         return $precoTotal;    
     }
